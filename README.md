@@ -1,12 +1,10 @@
-# Microverse_HTML_CSS_JS-Template
+# Yemen National Youth Party
+
 
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="images/facebook.svg" alt="Yemen National Youth Party logo" />
-  <br/>
-
-  <h3><b>Yemen National Youth Party</b></h3>
+  <img src="images/logo.svg" alt="Yemen National Youth Party logo" width="140"  height="auto" />
 
 </div>
 
