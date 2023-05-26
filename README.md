@@ -4,7 +4,14 @@
 <a name="readme-top"></a>
 
 <div align="center">
+<<<<<<< HEAD
   <img src="images/logo.svg" alt="Yemen National Youth Party logo" width="140"  height="auto" />
+=======
+  <img src="images" alt="Yemen National Youth Party logo" />
+  <br/>
+
+  <h3><b>Yemen National Youth Party</b></h3>
+>>>>>>> c2591f2 (add images)
 
 </div>
 
