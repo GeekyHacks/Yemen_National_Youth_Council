@@ -90,7 +90,7 @@ header > * {
 
 .fst_page > * {
   margin-left: 15%;
-  width: fit-content;
+  width: moz-fit-content;
 }
 
 .fst_page_h1 {
