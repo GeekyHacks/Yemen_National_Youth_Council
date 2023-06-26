@@ -1,0 +1,56 @@
+@import mobile
+#mobileNav
+    display: none
+
+#desktopNav
+    background: #FFFFFF
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25)
+    display: flex
+    flex-direction: column
+
+.fst_header
+    @include rowFlex
+    height: 1.875rem
+    padding: 0rem 11.875rem 0rem 0rem
+    justify-content: flex-end
+    gap: 1.25rem
+    flex-shrink: 0
+    align-self: stretch
+    background-color: #3e3e3e
+    font-family: $InterFont
+    font-weight: 500
+    font-size: 0.75rem
+    color: $primaryColor
+.sed_header
+    @include rowFlex
+    background-color: $primaryColor
+    color: #868686
+    font-family: $InterFont
+    font-weight: 800
+    font-size: 0.9rem
+    height: 4.6875rem
+    padding: 0rem 12.375rem 0rem 13.0625rem
+    justify-content: center
+    align-items: center
+    gap: 14.5rem
+    flex-shrink: 0
+    align-self: stretch
+.logo_img
+    width: 8.125rem
+    height: 3.1875rem
+
+.labels
+    @include rowFlex
+    justify-content: end
+    align-items: center
+    gap: 4.06rem
+    margin: 0
+    padding-right: 2rem
+
+.bordered_label
+    color: #ec4327
+    padding: 0.2rem
+    border: 3px solid #ec4327
+    white-space: nowrap
+.fst_page
+    background-image: url("/Yemen_National_Youth_Council/images/desktopbg.svg")

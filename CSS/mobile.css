@@ -1,0 +1,36 @@
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+#mobileNav {
+  background: #FFFFFF;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#menuBtn {
+  margin-left: 1.5rem;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+#ynyLogo {
+  width: 40%;
+  padding: 0.5rem;
+  margin-right: 6rem;
+  align-self: center;
+}
+
+#desktopNav {
+  display: none;
+}
+
+/*# sourceMappingURL=mobile.css.map */

@@ -1,4 +1,4 @@
-$primaryFont: "Inter", sans-serif
+$InterFont: "Inter", sans-serif
 $primaryColor: #fff
 *
     list-style: none
@@ -7,56 +7,16 @@ $primaryColor: #fff
     outline: none
     text-decoration: none
     box-sizing: border-box
-    font-family: $primaryFont
+    font-family: $InterFont
 // mixings
 
-// Header
-nav
+@mixin columnFlex
     display: flex
     flex-direction: column
-    z-index: 1
-    width: 100%
-
-.fst_page
-    background-image: url("/Yemen_National_Youth_Council/images/desktopbg.svg")
-
-.fst_header
-    background-color: #3e3e3e
-    font-weight: 500
-    font-size: 0.8em
-    color: $primaryColor
-    justify-content: end
-    gap: 2%
-    padding: 0.5% 1% 0.5% 0%
-    align-items: center
-    justify-items: center
-.sed_header
-    background-color: $primaryColor
-    justify-content: end
-    color: #868686
-    font-weight: 800
-    font-size: 0.8em
-    justify-items: center
-    padding: 0.5% 1% 1% 0.1%
-
-.logo_img
-    flex: 1
-    width: 20%
-    padding-left: 5em
-    padding-bottom: 3em
-
-.labels
-    flex: 10
-    width: 100%
-    flex: 6
+    justify-content: center
+    align-items: center 
+@mixin rowFlex
     display: flex
     flex-direction: row
-    justify-content: end
-    align-items: center
-    gap: 5%
-
-.bordered_label
-    color: #ec4327
-    padding: 0.2%
-    border: 3px solid #ec4327
-    white-space: nowrap
+    justify-content: center
+    align-items: center 
