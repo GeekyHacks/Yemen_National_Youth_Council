@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="CSS/main.css" />
     <link rel="stylesheet" href="CSS/normalize.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,77 +22,104 @@
     <title>Document</title>
   </head>
   <body>
-    <nav>
-      <ul class="fst_header">
-        <li><img src="images/facebook.svg" alt="" /></li>
-        <li><img src="images/twitter.svg" alt="" /></li>
-        <li>English</li>
-        <li>My Page</li>
-        <li>Logout</li>
-      </ul>
-      <br />
-      <div class="sed_header">
-        <img class="logo_img" src="images/logo.svg" alt="Party logo" />
-        <ul class="labels">
-          <li>About</li>
-          <li>Program</li>
-          <li>Join</li>
-          <li>Donate</li>
-          <li>News</li>
-          <li class="bordered_label">YNY Campaign</li>
-        </ul>
-      </div>
-    </nav>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid d-md-none">
+          <img class="logo_img" src="images/logo.svg" alt="Party logo" />
+          <button
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <img src="images/mobile_menu.svg" alt="Menu button" />
+          </button>
+        </div>
+        <div class="collapse navbar-collapse justify-content-lg-center" id="navbarNav">
+          <ul class="navbar-nav justify-content-lg-center gap-3" id="navHeader">
+            <li class="nav-item">
+              <div>
+                <ul class="fst_header">
+                  <li><img src="images/facebook.svg" alt="" /></li>
+                  <li><img src="images/twitter.svg" alt="" /></li>
+                  <li>English</li>
+                  <li>My Page</li>
+                  <li>Logout</li>
+                </ul>
+              </div>
+            </li>
+            <br />
+            <li class="nav-item">
+              <div class="sed_header">
+                <img class="logo_img" src="images/logo.svg" alt="Party logo" />
+                <ul class="labels">
+                  <li>About</li>
+                  <li>Program</li>
+                  <li>Join</li>
+                  <li>Donate</li>
+                  <li>News</li>
+                  <li class="bordered_label">YNY Campaign</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
     <main>
-      <header class="fst_page">
-        <h1 class="fst_page_h1">
-          "Hello! Yemeni People"<br />
-          PATRIOTIC COMMONS<br />
-          NATIONAL SUMMIT<br />
-          2024
-        </h1>
-        <p class="fst_page_p1">
-          Those national figures are the lighthouse we must seek during our dark
-          times, <br />
-          therefore, it's a must for every Yemeni to 
-          remember them and teach 
-          the next<br /> generation about the greatness they did for our homeland. Let
-          us celebrate <br /> them together and revive their legacy.
-        </p>
-        <h2 class="fst_page_h2">2024.10.14(THU) ~ 15(FRI)</h2>
-        <p class="fst_page_p2">@Alsabeen Street, the revolution square.</p>
-      </header>
+      <div class="fst_page">
+        <div class="container">
+          <h1 class="fst_page_h1">"Hello! Yemeni People" PATRIOTIC COMMONS NATIONAL SUMMIT 2024</h1>
+          <p class="fst_page_p1">
+            Those national figures are the lighthouse we must seek during our dark times, <br />
+            therefore, it's a must for every Yemeni to remember them and teach the next<br />
+            generation about the greatness they did for our homeland. Let us celebrate <br />
+            them together and revive their legacy.
+          </p>
+          <h2 class="fst_page_h2">2024.10.14(THU) ~ 15(FRI)</h2>
+          <p class="fst_page_p2">@Alsabeen Street, the revolution square.</p>
+        </div>
+      </div>
 
       <ul class="Scd_page">
-      <li>
-       <img src="images/program_icon_01.svg" alt="Program icon">
-       <h3>Lecture</h3> 
-       <p>History lecture about all mentioned figures</p>
-      </li>
-      <li>
-        <img src="images/program_icon_02.svg" alt="Program icon">
-        <h3>Lecture</h3> 
-        <p>History lecture about all mentioned figures</p>
-       </li>
-       <li>
-        <img src="images/program_icon_03.svg" alt="Program icon">
-        <h3>Lecture</h3> 
-        <p>History lecture about all mentioned figures</p>
-       </li>
-       <li>
-        <img src="images/program_icon_04.svg" alt="Program icon">
-        <h3>Lecture</h3> 
-        <p>History lecture about all mentioned figures</p>
-       </li>
-       <li>
-        <img src="images/program_icon_05.svg" alt="Program icon">
-        <h3>Lecture</h3> 
-        <p>History lecture about all mentioned figures</p>
-       </li>
-   
-    </ul>
+        <li>
+          <img src="images/program_icon_01.svg" alt="Program icon" />
+          <h3>Lecture</h3>
+          <p>History lecture about all mentioned figures</p>
+        </li>
+        <li>
+          <img src="images/program_icon_02.svg" alt="Program icon" />
+          <h3>Lecture</h3>
+          <p>History lecture about all mentioned figures</p>
+        </li>
+        <li>
+          <img src="images/program_icon_03.svg" alt="Program icon" />
+          <h3>Lecture</h3>
+          <p>History lecture about all mentioned figures</p>
+        </li>
+        <li>
+          <img src="images/program_icon_04.svg" alt="Program icon" />
+          <h3>Lecture</h3>
+          <p>History lecture about all mentioned figures</p>
+        </li>
+        <li>
+          <img src="images/program_icon_05.svg" alt="Program icon" />
+          <h3>Lecture</h3>
+          <p>History lecture about all mentioned figures</p>
+        </li>
+      </ul>
     </main>
 
     <footer></footer>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
