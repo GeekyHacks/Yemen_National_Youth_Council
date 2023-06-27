@@ -11,12 +11,12 @@
 .fst_header
     @include rowFlex
     height: 1.875rem
-    padding: 0rem 11.875rem 0rem 0rem
     justify-content: flex-end
+    padding: 0rem 22.875rem 0rem 0rem
     gap: 1.25rem
-    flex-shrink: 0
-    align-self: stretch
     background-color: #3e3e3e
+    margin: 0
+.fst_header li
     font-family: $InterFont
     font-weight: 500
     font-size: 0.75rem
@@ -25,32 +25,116 @@
     @include rowFlex
     background-color: $primaryColor
     color: #868686
-    font-family: $InterFont
-    font-weight: 800
-    font-size: 0.9rem
     height: 4.6875rem
     padding: 0rem 12.375rem 0rem 13.0625rem
-    justify-content: center
-    align-items: center
     gap: 14.5rem
-    flex-shrink: 0
-    align-self: stretch
 .logo_img
-    width: 8.125rem
-    height: 3.1875rem
-
+    height: 100%
+    padding: 0.5rem 0rem 1rem 0rem
 .labels
     @include rowFlex
-    justify-content: end
-    align-items: center
     gap: 4.06rem
     margin: 0
-    padding-right: 2rem
-
+.labels li
+    font-size: 0.875rem
+    font-weight: 800
 .bordered_label
+    @include columnFlex
+    width: 7.6875rem
+    height: 3rem
+    padding: 0rem 1.0625rem 0rem 1.125rem
     color: #ec4327
-    padding: 0.2rem
-    border: 3px solid #ec4327
+    border: 5px solid #EC4327
     white-space: nowrap
-.fst_page
-    background-image: url("/Yemen_National_Youth_Council/images/desktopbg.svg")
+    padding: 1rem
+#mobileNav
+    display: none
+#fst_page
+    // display: inline-flex
+    background-image: url("../images/desktopbg.svg")
+    background-repeat: no-repeat
+    padding: 5rem
+.fst_page_h1
+    margin-top: 1rem
+    background-image: url("../images/textBg.png.jpg")
+    background-repeat: no-repeat
+    font-weight: 800
+    font-size: 3.5rem
+
+.fst_page_p1
+    margin-top: 1rem
+    font-weight: 400
+    border: 8.497px solid $primaryColor
+    background: #F8F8F8
+    color: #515151
+    font-size: 1.59313rem
+    line-height: 2.25694rem
+    letter-spacing: -0.01594rem
+    width: 47.26306rem
+    height: 11.28475rem
+
+.fst_page_h2
+    color: #595959
+    font-size: 2.65525rem
+.fst_page_p2
+    font-size: 1.72588rem
+    letter-spacing: -0.01625rem
+// programs section
+#Scd_page
+    @include columnFlex
+    padding: 4.6875rem 13.375rem
+#fst_part
+    @include columnFlex
+#fst_part h2
+    font-size: 1.875rem
+    line-height: 1.75rem
+    letter-spacing: -0.01875rem
+    margin: .5rem
+#fst_part img
+    width: 25%
+    height: 8px
+    margin: .5rem auto 2rem auto
+.programs
+    @include rowFlex
+    gap: 1.375rem
+    width: 100%
+
+.programs li
+    @include columnFlex
+    padding: 0.375rem 0.75rem 2.625rem 0.8125rem
+    align-content: space-between
+    justify-content: center
+    text-align: center
+.programs li img
+    flex: .5
+.programs li h3
+    width: 9.125rem
+    white-space: nowrap
+    font-size: 1.5rem
+    font-family: $InterFont
+    font-weight: 700
+    line-height: 1.75rem
+    letter-spacing: -0.015rem
+.programs li p
+    width: 11.0625rem
+    height: 5.75rem
+    font-size: 0.75rem
+    font-family: $InterFont
+    font-weight: 700
+    line-height: 1.5625rem
+    letter-spacing: 0.045rem
+#last_part
+    @include columnFlex
+    background: transparent
+    color: $primaryColor
+    padding: 1rem 2.125rem
+#last_part .desktop_h3
+    display: inline
+    color: $primaryColor
+    font-size: 1.25rem
+    font-family: $InterFont
+    line-height: 1.75rem
+    letter-spacing: -0.0125rem
+    text-decoration-line: underline
+#last_part .mobile_h3
+    display: none

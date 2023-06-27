@@ -9,27 +9,196 @@
 }
 
 #mobileNav {
-  background: #FFFFFF;
-  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  background: #fff;
+  display: inline-flex;
+  justify-content: space-evenly;
+  padding: 0.375rem 7.625rem 0.375rem 1.4375rem;
   align-items: center;
+  gap: 4rem;
+  background: #fff;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  height: 4.1875rem;
+  width: 100vw;
 }
 
 #menuBtn {
-  margin-left: 1.5rem;
-  padding: 0.5rem 0 0.5rem 0;
+  height: 3.1875rem;
+  flex: 0.1;
+  padding: 1%;
 }
 
 #ynyLogo {
-  width: 40%;
-  padding: 0.5rem;
-  margin-right: 6rem;
-  align-self: center;
+  flex: 1;
+  height: 4.1875rem;
+  padding: 1rem;
 }
 
 #desktopNav {
+  display: none;
+}
+
+#fst_page {
+  background-image: url("../images/mobile-hero_container.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  align-items: flex-start;
+  text-align: left;
+  padding: 6.8125rem 0rem 4.4375rem 0rem;
+}
+
+.fst_page_h1 {
+  margin-top: 0rem;
+  margin-bottom: 0;
+  background-image: url("../images/textBg.png.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  font-size: 2.7rem;
+  white-space: nowrap;
+}
+
+.fst_page_p1 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-weight: 400;
+  background: #f8f8f8;
+  border: 1px solid #fff;
+  font-size: 1rem;
+  line-height: 1.0625rem;
+  color: #515151;
+  height: 5.3125rem;
+  padding: 1rem;
+}
+
+.fst_page_h2 {
+  color: #595959;
+  font-size: 1.25rem;
+  font-family: Gothic A1;
+  font-weight: 900;
+  margin: 0;
+  margin-top: 0.5rem;
+}
+
+.fst_page_p2 {
+  color: #868686;
+  font-size: 0.8125rem;
+  font-family: Gothic A1;
+  font-weight: 700;
+  letter-spacing: -0.01625rem;
+  height: 0.8125rem;
+  margin: 0;
+}
+
+#Scd_page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/program_content.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0.6875rem 0.75rem;
+}
+
+#fst_part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#fst_part h2 {
+  color: #fff;
+  font-size: 1.25rem;
+  font-family: "Inter", sans-serif;
+  line-height: 1.75rem;
+  letter-spacing: -0.05rem;
+  margin: 2rem auto 0rem auto;
+}
+
+#fst_part img {
+  width: 21%;
+  height: 6px;
+  margin: 0.5rem auto;
+}
+
+.programs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 23.4375rem;
+}
+
+.programs li {
+  background-color: rgba(150, 150, 150, 0.2);
+  stroke-opacity: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 0.27875rem 0rem 0rem;
+}
+
+.programs li img {
+  flex: 0.5;
+}
+
+.programs li h3 {
+  text-align: center;
+  flex: 2;
+  align-self: center;
+  width: 4.0695rem;
+  height: 1.50519rem;
+  color: #FF5438;
+  font-size: 0.89194rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  line-height: 1.56094rem;
+  letter-spacing: -0.00894rem;
+  white-space: nowrap;
+}
+
+.programs li p {
+  flex: 3;
+  align-self: center;
+  width: 11.98556rem;
+  height: 5.12869rem;
+  color: #fff;
+  font-size: 0.66894rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  line-height: 1.39369rem;
+  letter-spacing: 0.04013rem;
+  margin: 0 0;
+}
+
+#last_part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #FF5438;
+  padding: 1rem 2.125rem;
+}
+
+#last_part .mobile_h3 {
+  color: #fff;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  line-height: 1.75rem;
+  letter-spacing: -0.01rem;
+}
+
+#last_part .desktop_h3 {
   display: none;
 }
 
@@ -50,12 +219,14 @@
   justify-content: center;
   align-items: center;
   height: 1.875rem;
-  padding: 0rem 11.875rem 0rem 0rem;
   justify-content: flex-end;
+  padding: 0rem 22.875rem 0rem 0rem;
   gap: 1.25rem;
-  flex-shrink: 0;
-  align-self: stretch;
   background-color: #3e3e3e;
+  margin: 0;
+}
+
+.fst_header li {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 0.75rem;
@@ -69,21 +240,14 @@
   align-items: center;
   background-color: #fff;
   color: #868686;
-  font-family: "Inter", sans-serif;
-  font-weight: 800;
-  font-size: 0.9rem;
   height: 4.6875rem;
   padding: 0rem 12.375rem 0rem 13.0625rem;
-  justify-content: center;
-  align-items: center;
   gap: 14.5rem;
-  flex-shrink: 0;
-  align-self: stretch;
 }
 
 .logo_img {
-  width: 8.125rem;
-  height: 3.1875rem;
+  height: 100%;
+  padding: 0.5rem 0rem 1rem 0rem;
 }
 
 .labels {
@@ -91,22 +255,164 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  justify-content: end;
-  align-items: center;
   gap: 4.06rem;
   margin: 0;
-  padding-right: 2rem;
+}
+
+.labels li {
+  font-size: 0.875rem;
+  font-weight: 800;
 }
 
 .bordered_label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 7.6875rem;
+  height: 3rem;
+  padding: 0rem 1.0625rem 0rem 1.125rem;
   color: #ec4327;
-  padding: 0.2rem;
-  border: 3px solid #ec4327;
+  border: 5px solid #EC4327;
   white-space: nowrap;
+  padding: 1rem;
 }
 
-.fst_page {
-  background-image: url("/Yemen_National_Youth_Council/images/desktopbg.svg");
+#mobileNav {
+  display: none;
+}
+
+#fst_page {
+  background-image: url("../images/desktopbg.svg");
+  background-repeat: no-repeat;
+  padding: 5rem;
+}
+
+.fst_page_h1 {
+  margin-top: 1rem;
+  background-image: url("../images/textBg.png.jpg");
+  background-repeat: no-repeat;
+  font-weight: 800;
+  font-size: 3.5rem;
+}
+
+.fst_page_p1 {
+  margin-top: 1rem;
+  font-weight: 400;
+  border: 8.497px solid #fff;
+  background: #F8F8F8;
+  color: #515151;
+  font-size: 1.59313rem;
+  line-height: 2.25694rem;
+  letter-spacing: -0.01594rem;
+  width: 47.26306rem;
+  height: 11.28475rem;
+}
+
+.fst_page_h2 {
+  color: #595959;
+  font-size: 2.65525rem;
+}
+
+.fst_page_p2 {
+  font-size: 1.72588rem;
+  letter-spacing: -0.01625rem;
+}
+
+#Scd_page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4.6875rem 13.375rem;
+}
+
+#fst_part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#fst_part h2 {
+  font-size: 1.875rem;
+  line-height: 1.75rem;
+  letter-spacing: -0.01875rem;
+  margin: 0.5rem;
+}
+
+#fst_part img {
+  width: 25%;
+  height: 8px;
+  margin: 0.5rem auto 2rem auto;
+}
+
+.programs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.375rem;
+  width: 100%;
+}
+
+.programs li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.375rem 0.75rem 2.625rem 0.8125rem;
+  align-content: space-between;
+  justify-content: center;
+  text-align: center;
+}
+
+.programs li img {
+  flex: 0.5;
+}
+
+.programs li h3 {
+  width: 9.125rem;
+  white-space: nowrap;
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  line-height: 1.75rem;
+  letter-spacing: -0.015rem;
+}
+
+.programs li p {
+  width: 11.0625rem;
+  height: 5.75rem;
+  font-size: 0.75rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  line-height: 1.5625rem;
+  letter-spacing: 0.045rem;
+}
+
+#last_part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  color: #fff;
+  padding: 1rem 2.125rem;
+}
+
+#last_part .desktop_h3 {
+  display: inline;
+  color: #fff;
+  font-size: 1.25rem;
+  font-family: "Inter", sans-serif;
+  line-height: 1.75rem;
+  letter-spacing: -0.0125rem;
+  text-decoration-line: underline;
+}
+
+#last_part .mobile_h3 {
+  display: none;
 }
 
 /*# sourceMappingURL=desktop.css.map */
