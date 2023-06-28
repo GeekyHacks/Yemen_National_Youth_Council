@@ -6,6 +6,7 @@
   text-decoration: none;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+  -webkit-appearance: none;
 }
 
 #mobileNav {
@@ -212,6 +213,35 @@
 }
 
 #last_part .mobile_h3 {
+  display: none;
+}
+
+#figuresFst h2 {
+  color: #000;
+  font-size: 1.25rem;
+  font-family: "Inter", sans-serif;
+  line-height: 1.75rem;
+  letter-spacing: -0.0625rem;
+  text-align: center;
+  margin: 2rem auto 0rem auto;
+}
+
+#figuresScd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+#figures {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.viewMore {
   display: none;
 }
 

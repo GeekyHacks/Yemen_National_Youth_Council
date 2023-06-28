@@ -6,6 +6,7 @@
   text-decoration: none;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+  -webkit-appearance: none;
 }
 
 #mobileNav {
@@ -122,7 +123,7 @@
   margin: 2rem auto 0rem auto;
 }
 
-#fst_part img {
+.underline {
   width: 21%;
   height: 6px;
   margin: 0.5rem auto;
@@ -200,6 +201,95 @@
 
 #last_part .desktop_h3 {
   display: none;
+}
+
+#figuresSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#figuresFst {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#figuresFst h2 {
+  color: #000;
+  font-size: 1.25rem;
+  font-family: "Inter", sans-serif;
+  line-height: 1.75rem;
+  letter-spacing: -0.0625rem;
+  text-align: center;
+  margin: 2rem auto 0rem auto;
+}
+
+#figuresScd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+#figures li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+#figures .imgPart {
+  flex: 1;
+}
+
+#figures .contentPart {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  align-items: flex-start;
+}
+
+#figures .contentPart > * {
+  margin: 0;
+  padding: 0;
+}
+
+#figures li .imgPart img {
+  background-image: url("../images/BlackchessBoard.svg");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  padding-top: 5px;
+  padding-left: 5px;
+  width: 6.6875rem;
+  height: 7.87181rem;
+}
+
+.viewMore {
+  transition: all 0.5s;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #DCDCDC;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 107%;
+  letter-spacing: 0.001em;
+  word-spacing: normal;
+  transition-duration: 0.4s;
+  padding: 1rem;
+  margin: 0.5rem 0rem;
+  width: 100vw;
 }
 
 /*# sourceMappingURL=mobile.css.map */

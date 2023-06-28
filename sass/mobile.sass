@@ -84,7 +84,7 @@
     line-height: 1.75rem
     letter-spacing: -0.05rem
     margin: 2rem auto 0rem auto
-#fst_part img
+.underline
     width: 21%
     height: 6px
     margin: .5rem auto
@@ -138,3 +138,47 @@
     letter-spacing: -0.01rem
 #last_part .desktop_h3
     display: none
+
+// Figures section
+#figuresSection
+    @include columnFlex
+#figuresFst
+    @include columnFlex
+#figuresFst h2
+    color: #000
+    font-size: 1.25rem
+    font-family: $InterFont
+    line-height: 1.75rem
+    letter-spacing: -0.0625rem
+    text-align: center
+    margin: 2rem auto 0rem auto
+#figuresScd
+    @include columnFlex
+    gap: .5rem
+    margin-top: 1rem
+#figures li
+    @include rowFlex
+    margin-top: 1rem
+#figures .imgPart
+    flex: 1
+#figures .contentPart
+    flex: 3
+    @include columnFlex
+    text-align: left
+    align-items: flex-start
+#figures .contentPart > *
+    margin: 0
+    padding: 0
+#figures li .imgPart img
+    background-image: url('../images/BlackchessBoard.svg')
+    background-position: left top
+    background-repeat: no-repeat
+    background-size: 80%
+    padding-top: 5px
+    padding-left: 5px
+    width: 6.6875rem
+    height: 7.87181rem
+
+.viewMore
+    @include button
+    width: 100vw
