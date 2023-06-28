@@ -171,7 +171,7 @@
 
 .programs li h3 {
   text-align: center;
-  flex: 2;
+  flex: 1;
   align-self: center;
   width: auto;
   height: 1.50519rem;
@@ -181,10 +181,10 @@
   font-weight: 700;
   line-height: 1.56094rem;
   letter-spacing: -0.00894rem;
-  white-space: nowrap;
 }
 
 .programs li p {
+  flex: 2;
   align-self: flex-start;
   color: #fff;
   font-size: 0.66894rem;
@@ -201,7 +201,7 @@
   justify-content: center;
   align-items: center;
   background: #FF5438;
-  padding: 0.3rem 1rem;
+  padding: 0.3rem 0.5rem;
 }
 
 #last_part .mobile_h3 {
