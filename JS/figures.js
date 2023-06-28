@@ -1,3 +1,28 @@
+// menu popup
+
+const modal = document.querySelector('#menuPage');
+// Get the button that opens the modal
+const menubtn = document.querySelector('#menuBtn');
+// Get the x element that closes the modal
+const menuX = document.querySelector('.menuX');
+
+// get menu options to use it for hidemenu function
+const menuItems = document.querySelectorAll('.menuPageList > li a');
+
+menubtn.addEventListener('click', () => {
+  modal.classList.toggle('showMenu');
+});
+
+menuX.addEventListener('click', () => {
+  modal.classList.toggle('showMenu');
+});
+
+menuItems.forEach((element) => {
+  element.addEventListener('click', () => {
+    modal.classList.toggle('showMenu');
+  });
+});
+
 const body = document.querySelector('body');
 const viewMore = document.querySelector('.viewMore');
 const listofFigures = document.querySelector('#figures');
@@ -63,7 +88,7 @@ window.addEventListener('load', () => {
 
       listofFigures.appendChild(newFigure);
     }
-  } else {
+  } else if (window.innerWidth < 768) {
     listofFigures.removeChild(newFigure);
     viewMore.style.display = 'block';
   }
