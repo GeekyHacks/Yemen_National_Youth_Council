@@ -21,44 +21,49 @@
     padding: 0.3rem
 #desktopNav
     display: none
+.container
+    @include columnFlex
+    align-items: flex-start
+    padding-left: 1rem
+    margin: 0 1rem
+
 #fst_page
     background-image: url('../images/mobile-hero_container.svg')
-    background-size: 100%
+    background-size: cover
     background-repeat: no-repeat
     @include columnFlex
     font-family: $InterFont
     align-items: flex-start
     text-align: left
-    padding: 6.8125rem 0rem 4.4375rem 0rem
-
+    padding: 5rem 0rem 4.4375rem 0rem
+.small
+    font-weight: 400
+    font-size: 1.3rem
 .fst_page_h1
-    margin-top: 0rem
-    margin-bottom: 0
-    background-image: url("../images/textBg.png.jpg")
+    background-image: url("../images/textBg.jpg")
     background-repeat: no-repeat
     -webkit-background-clip: text
     -webkit-text-fill-color: transparent
     font-weight: 800
-    font-size: 2.7rem
+    font-size: 1.5rem
     white-space: nowrap
 .fst_page_p1
-    margin-top: 1rem
-    margin-bottom: 0
+    margin: 1.5rem auto .5rem .1rem
     font-weight: 400
     background: #f8f8f8
-    border: 1px solid $primaryColor
-    font-size: 1rem
+    border: 2px solid $primaryColor
+    font-size: .8rem
     line-height: 1.0625rem
     color: #515151
     height: 5.3125rem
-    padding: 1rem
+    padding: 1rem 1rem 1.5rem .1rem
+
 .fst_page_h2
     color: #595959
     font-size: 1.25rem
     font-family: Gothic A1
     font-weight: 900
-    margin: 0
-    margin-top: .5rem
+    margin: .5rem auto .2rem .1rem
 .fst_page_p2
     color: #868686
     font-size: 0.8125rem
@@ -75,6 +80,7 @@
     background-size: cover
     background-repeat: no-repeat
     padding: 0.6875rem 0.75rem
+    gap: .4rem
 #fst_part
     @include columnFlex
 #fst_part h2
@@ -90,20 +96,24 @@
     margin: .5rem auto
 .programs
     @include columnFlex
-    gap: 2rem
-    width: 23.4375rem
+    gap: 1rem
+    align-items: stretch
+    padding: .5rem
 .programs li
     background-color: rgba(150, 150, 150, 0.2)
     stroke-opacity: 100%
     @include rowFlex
-    padding: 0rem 0.27875rem 0rem 0rem
+.programs li > *
+    padding: .3rem
+
+    align-self: center
 .programs li img
     flex: .5
 .programs li h3
     text-align: center
     flex: 2
     align-self: center
-    width: 4.0695rem
+    width: auto
     height: 1.50519rem
     color: #FF5438
     font-size: 0.89194rem
@@ -111,13 +121,9 @@
     font-weight: 700
     line-height: 1.56094rem
     letter-spacing: -0.00894rem
-    // margin: 0 0
     white-space: nowrap
 .programs li p
-    flex: 3
-    align-self: center
-    width: 11.98556rem
-    height: 5.12869rem
+    align-self: flex-start
     color: $primaryColor
     font-size: 0.66894rem
     font-family: $InterFont
@@ -144,6 +150,7 @@
     @include columnFlex
 #figuresFst
     @include columnFlex
+    gap: .5rem
 #figuresFst h2
     color: #000
     font-size: 1.25rem
@@ -159,6 +166,9 @@
 #figures li
     @include rowFlex
     margin-top: 1rem
+    gap: .5rem
+#figures li >*
+    gap: .4rem
 #figures .imgPart
     flex: 1
 #figures .contentPart

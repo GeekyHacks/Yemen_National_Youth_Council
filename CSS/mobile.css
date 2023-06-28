@@ -38,9 +38,19 @@
   display: none;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+  padding-left: 1rem;
+  margin: 0 1rem;
+}
+
 #fst_page {
   background-image: url("../images/mobile-hero_container.svg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -49,32 +59,34 @@
   font-family: "Inter", sans-serif;
   align-items: flex-start;
   text-align: left;
-  padding: 6.8125rem 0rem 4.4375rem 0rem;
+  padding: 5rem 0rem 4.4375rem 0rem;
+}
+
+.small {
+  font-weight: 400;
+  font-size: 1.3rem;
 }
 
 .fst_page_h1 {
-  margin-top: 0rem;
-  margin-bottom: 0;
-  background-image: url("../images/textBg.png.jpg");
+  background-image: url("../images/textBg.jpg");
   background-repeat: no-repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 800;
-  font-size: 2.7rem;
+  font-size: 1.5rem;
   white-space: nowrap;
 }
 
 .fst_page_p1 {
-  margin-top: 1rem;
-  margin-bottom: 0;
+  margin: 1.5rem auto 0.5rem 0.1rem;
   font-weight: 400;
   background: #f8f8f8;
-  border: 1px solid #fff;
-  font-size: 1rem;
+  border: 2px solid #fff;
+  font-size: 0.8rem;
   line-height: 1.0625rem;
   color: #515151;
   height: 5.3125rem;
-  padding: 1rem;
+  padding: 1rem 1rem 1.5rem 0.1rem;
 }
 
 .fst_page_h2 {
@@ -82,8 +94,7 @@
   font-size: 1.25rem;
   font-family: Gothic A1;
   font-weight: 900;
-  margin: 0;
-  margin-top: 0.5rem;
+  margin: 0.5rem auto 0.2rem 0.1rem;
 }
 
 .fst_page_p2 {
@@ -105,6 +116,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0.6875rem 0.75rem;
+  gap: 0.4rem;
 }
 
 #fst_part {
@@ -134,8 +146,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
-  width: 23.4375rem;
+  gap: 1rem;
+  align-items: stretch;
+  padding: 0.5rem;
 }
 
 .programs li {
@@ -145,7 +158,11 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0rem 0.27875rem 0rem 0rem;
+}
+
+.programs li > * {
+  padding: 0.3rem;
+  align-self: center;
 }
 
 .programs li img {
@@ -156,7 +173,7 @@
   text-align: center;
   flex: 2;
   align-self: center;
-  width: 4.0695rem;
+  width: auto;
   height: 1.50519rem;
   color: #FF5438;
   font-size: 0.89194rem;
@@ -168,10 +185,7 @@
 }
 
 .programs li p {
-  flex: 3;
-  align-self: center;
-  width: 11.98556rem;
-  height: 5.12869rem;
+  align-self: flex-start;
   color: #fff;
   font-size: 0.66894rem;
   font-family: "Inter", sans-serif;
@@ -215,6 +229,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 0.5rem;
 }
 
 #figuresFst h2 {
@@ -242,6 +257,11 @@
   justify-content: center;
   align-items: center;
   margin-top: 1rem;
+  gap: 0.5rem;
+}
+
+#figures li > * {
+  gap: 0.4rem;
 }
 
 #figures .imgPart {
