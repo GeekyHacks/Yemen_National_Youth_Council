@@ -25,7 +25,7 @@
 .menuPage
     display: none
     position: fixed
-    top:0
+    top: 0
     z-index: 1
     background-color: #fff
     width: 100%
@@ -420,12 +420,15 @@ footer
 footer div
     @include rowFlex
     gap: 2rem
-footer div .logo_img
-    flex: 1
-    width: 30%
+footer div img
+    flex: .5
+    width: 20%
+    background: $primaryColor
+footer div .arabP
+    display: none
 footer div p
     flex: 2
-    color: #3B3E45
+    color: $primaryColor
     font-size: 0.625rem
     font-family: $InterFont
     font-weight: 700

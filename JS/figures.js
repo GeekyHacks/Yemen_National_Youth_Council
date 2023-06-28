@@ -29,28 +29,31 @@ const listofFigures = document.querySelector('#figures');
 const dynamicList = document.querySelector('#dynamicList');
 let figuresArray = [
   {
-    img: 'images/86020057.jpeg',
-    name: 'Abd',
-    occupation: 'revelotionist',
-    description: 'sadsadasdsadasdasdasdas asdasdasda asdasd aasdasda',
+    img: 'images/IbrahimAl_Hamdi.jpg',
+    name: ' Ibrahim al-Hamdi',
+    occupation: 'President',
+    description:
+      'was the leader of a military coup in the Yemen Arab Republic that overthrew the regime of President Abdul Rahman al-Iryani on 13 June 1974. After the revolt, he was President of the Military Command Council that governed the country.',
   },
   {
-    img: 'images/86020057.jpeg',
-    name: 'Abd',
-    occupation: 'revelotionist',
-    description: 'sadsadasdsadasdasdasdas asdasdasda asdasd aasdasda',
+    img: 'images/SalimRubai.jpg',
+    name: 'Salim Rubai Ali',
+    occupation: 'President',
+    description:
+      'known by his comrades as "Salimin", was the Marxist head of state of the Peoples Democratic Republic of Yemen (South Yemen) from 22 June 1969 until his executionon 26 June 1978.',
   },
   {
-    img: 'images/86020057.jpeg',
-    name: 'Abd',
-    occupation: 'revelotionist',
-    description: 'sadsadasdsadasdasdasdas asdasdasda asdasd aasdasda',
+    img: 'images/Abdrahman_al-Eryani.jpg',
+    name: 'Abdul Rahman Yahya al-Eryani',
+    occupation: 'President',
+    description: 'was the President of the Yemen Arab Republic (North Yemen) from 5 November 1967 to 13 June 1974',
   },
   {
-    img: 'images/86020057.jpeg',
-    name: 'Abd',
-    occupation: 'revelotionist',
-    description: 'sadsadasdsadasdasdasdas asdasdasda asdasd aasdasda',
+    img: 'images/Imam_qasam.png',
+    name: 'Al-Mansur al-Qasim',
+    occupation: 'Imam',
+    description:
+      ' was an Imam of Yemen, who commenced the struggle to liberate Yemen from the Ottoman occupiers. He was the founder of a Zaidi kingdom that endured, under many vicissitudes, until 1970.',
   },
 ];
 
