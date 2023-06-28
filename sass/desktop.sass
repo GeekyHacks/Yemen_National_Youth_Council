@@ -160,3 +160,124 @@
 
 .viewMore
     display: none
+
+    .aboutMain
+        background: #f8f8f8
+
+// About section
+.aboutFst
+    background-image: url(../images/aboutbg.svg)
+// .aboutFst div,.aboutScd div
+
+.aboutFst  div h2
+    font-size: 1.8rem
+    margin-bottom: .5rem
+.aboutFst  div h2 span
+    display: none
+.aboutUnderline
+    display: block
+    margin-bottom: 1.5rem
+.aboutFst  div p
+    border: 4px solid $primaryColor
+    width: 40rem
+    padding: 1rem
+.aboutFst  div .contactPar
+    border: none
+    font-size: .9rem
+    letter-spacing: 0.03rem
+    width: 40rem
+.aboutFst  div h3
+    font-size: .9rem
+    letter-spacing: 0.02125rem
+// .aboutScd
+//     @include columnFlex
+//     gap: .2rem
+//     padding-left: .15rem
+//     background: #f8f8f8
+.aboutScd div h2
+    font-size: 1.2rem
+    line-height: 1.75rem
+    margin-bottom: .05rem
+.aboutScd div .underline
+    width: 7%
+    height: 10px
+.aboutScd div p
+    font-size: 1rem
+    line-height: 1.3125rem
+    letter-spacing: -0.03rem
+    width: 31rem
+    margin-bottom: .5rem
+.aboutScd div img
+    width: 22rem
+    height: 12.20494rem
+.aboutThrd div h2
+    color: #2C2C2C
+    font-size: 1.4rem
+    line-height: 1.75rem
+    letter-spacing: -0.05625rem
+.aboutThrd div .underline
+    align-self: center
+    width: 8%
+.aboutThrd div p
+    font-size: .7rem
+    letter-spacing: -0.03rem
+    width: 26rem
+    margin-bottom: 1rem
+.aboutThrd div div
+    @include rowFlex
+    text-align: center
+    gap: .8rem
+.oldSummits1, .oldSummits2
+    padding: .1rem
+.oldSummits1 h3, .oldSummits2 h3
+    font-size: 1.2rem
+.partners
+    margin-top: 3rem
+    gap: .5rem
+.partners div
+    @include columnFlex
+    padding-left: .15rem
+.partners div h2
+    color: $primaryColor
+    font-size: 1.25rem
+    font-family: $InterFont
+    line-height: 1.75rem
+    letter-spacing: -0.0125rem
+.partners div .underline
+    margin-top: .1rem
+    width: 20%
+.partners ul
+    @include rowFlex
+    flex-wrap: wrap
+    gap: .5rem
+    padding-left: .15rem
+.partners ul li img
+    width: 6rem
+    height: 2rem
+footer
+    margin-top: 0rem
+    opacity: 100%
+    background: #F2F2F2
+footer div
+    @include rowFlex
+    gap: 8rem
+footer div .logo_img
+    flex: 1
+    background-image: url("../images/textBg.jpg")
+    background-repeat: no-repeat
+    -webkit-background-clip: text
+    -webkit-text-fill-color: $primaryColor
+    width: 25%
+
+footer div div
+    flex: 2
+    @include columnFlex
+    align-items: flex-start
+    gap: .5rem
+footer div div p
+    color: #000
+    font-size: 1rem
+    font-family: $InterFont
+    font-weight: 700
+    line-height: 1.3rem
+    letter-spacing: -0.056rem
