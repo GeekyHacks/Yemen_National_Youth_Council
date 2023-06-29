@@ -58,7 +58,7 @@ To get a local copy up and running, follow these steps:
 
 - Open your Terminal in your VSCode.
 - Navigate to the desired directory[folder] to which you want to clone the repository to
-- [Copy & Paste] git clone you find in the code button https://github.com/GeekyHacks/Personal-Portfolio-Microverse.git
+- [Copy & Paste] git clone you find in the code button https://github.com/GeekyHacks/Yemen_National_Youth_Council.git
 
 ### Prerequisites
 
