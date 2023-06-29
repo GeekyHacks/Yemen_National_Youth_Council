@@ -6,7 +6,6 @@
 
 
   <img src="images/logo.svg" alt="Yemen National Youth Council logo" width="140"  height="auto" />
-  <img src="images" alt="Yemen National Youth Council logo" />
   <br/>
 
 
