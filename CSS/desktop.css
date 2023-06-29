@@ -32,7 +32,7 @@
 }
 
 .fst_header li {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 0.5rem;
   color: #fff;
@@ -84,14 +84,14 @@
 }
 
 #fst_page {
-  background-image: url("../images/desktopbg.svg");
+  background-image: url('../images/desktopbg.svg');
   background-repeat: no-repeat;
   padding: 2rem 0 4.4375rem 0;
 }
 
 .fst_page_h1 {
   margin-top: 1rem;
-  background-image: url("../images/textBg.jpg");
+  background-image: url('../images/textBg.jpg');
   background-repeat: no-repeat;
   font-weight: 800;
   font-size: 3.5rem;
@@ -131,12 +131,37 @@
   padding: 1.6875rem 1.375rem;
 }
 
+footer div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+}
+
+footer div div {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+footer div div p {
+  color: #000;
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  line-height: 1.3rem;
+  letter-spacing: -0.056rem;
+}
+
 .partners div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-left: 0.15rem;
 }
 
 .aboutFst div h2 {
@@ -164,6 +189,14 @@
   align-items: center;
 }
 
+.partners div h2 {
+  color: #fff;
+  font-size: 1.25rem;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.75rem;
+  letter-spacing: -0.0125rem;
+}
+
 #fst_part h2 {
   font-size: 1.875rem;
   line-height: 1.75rem;
@@ -178,6 +211,21 @@
 .aboutScd div img {
   width: 22rem;
   height: 12.20494rem;
+}
+
+.partners ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding-left: 0.15rem;
+}
+
+.partners ul li img {
+  width: 6rem;
+  height: 2rem;
 }
 
 #fst_part img {
@@ -227,7 +275,7 @@
   height: 5.75rem;
   flex: 0.6;
   font-size: 0.75rem;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   line-height: 1.5625rem;
   letter-spacing: 0.045rem;
@@ -247,7 +295,7 @@
   display: inline;
   color: #fff;
   font-size: 1.25rem;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   line-height: 1.75rem;
   letter-spacing: -0.0125rem;
   text-decoration-line: underline;
@@ -260,7 +308,7 @@
 #figuresFst h2 {
   color: #000;
   font-size: 1.25rem;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   line-height: 1.75rem;
   letter-spacing: -0.0625rem;
   text-align: center;
@@ -286,7 +334,7 @@
   display: none;
 }
 
-.viewMore .aboutMain {
+.aboutMain {
   background: #f8f8f8;
 }
 
@@ -365,46 +413,15 @@
   gap: 0.5rem;
 }
 
-.partners div h2 {
-  color: #fff;
-  font-size: 1.25rem;
-  font-family: "Inter", sans-serif;
-  line-height: 1.75rem;
-  letter-spacing: -0.0125rem;
-}
-
 .partners div .underline {
   margin-top: 0.1rem;
   width: 20%;
 }
 
-.partners ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  padding-left: 0.15rem;
-}
-
-.partners ul li img {
-  width: 6rem;
-  height: 2rem;
-}
-
 footer {
   margin-top: 0;
-  opacity: 100%;
+  opacity: 1;
   background: #f2f2f2;
-}
-
-footer div {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 8rem;
 }
 
 footer div .logo_img {
@@ -417,20 +434,4 @@ footer div .arabP {
   display: block;
 }
 
-footer div div {
-  flex: 2;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 0.5rem;
-}
-
-footer div div p {
-  color: #000;
-  font-size: 1rem;
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  line-height: 1.3rem;
-  letter-spacing: -0.056rem;
-}
+/*# sourceMappingURL=desktop.css.map */

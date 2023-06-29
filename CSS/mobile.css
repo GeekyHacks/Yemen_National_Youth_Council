@@ -18,7 +18,6 @@
   padding: 0.375rem 7.625rem 0.375rem 1.4375rem;
   align-items: center;
   gap: 4rem;
-  background: #fff;
   box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
   height: 4.1875rem;
   width: 100vw;
@@ -78,7 +77,7 @@
 }
 
 .menuPageList li a {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 195%;
   font-weight: 600;
@@ -120,12 +119,12 @@
 }
 
 #fst_page {
-  background-image: url("../images/mobile-hero_container.svg");
+  background-image: url('../images/mobile-hero_container.svg');
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   align-items: flex-start;
   justify-content: center;
   text-align: left;
@@ -138,7 +137,7 @@
 }
 
 .fst_page_h1 {
-  background-image: url("../images/textBg.jpg");
+  background-image: url('../images/textBg.jpg');
   background-repeat: no-repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -162,7 +161,7 @@
 .fst_page_h2 {
   color: #595959;
   font-size: 1.25rem;
-  font-family: Inter;
+  font-family: 'Gothic A1', sans-serif;
   font-weight: 900;
   margin: 0.5rem auto 0.2rem 0.1rem;
 }
@@ -170,7 +169,7 @@
 .fst_page_p2 {
   color: #868686;
   font-size: 0.8125rem;
-  font-family: Inter;
+  font-family: 'Gothic A1', sans-serif;
   font-weight: 700;
   letter-spacing: -0.01625rem;
   height: 0.8125rem;
@@ -182,7 +181,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("../images/program_content.svg");
+  background-image: url('../images/program_content.svg');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0.6875rem 0.75rem;
@@ -196,10 +195,48 @@
   align-items: center;
 }
 
+.aboutFst div h2 {
+  color: #ff5438;
+  font-weight: 800;
+  font-size: 1.5rem;
+  text-align: center;
+  white-space: nowrap;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+
+.aboutThrd div h2 {
+  color: #838383;
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  line-height: 1.3125rem;
+  letter-spacing: -0.03rem;
+}
+
+.partners div h2 {
+  color: #fff;
+  font-size: 1.25rem;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.75rem;
+  letter-spacing: -0.0125rem;
+}
+
+.aboutScd div h2 {
+  color: #2c2c2c;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  word-wrap: break-word;
+  margin-bottom: 0.3rem;
+}
+
 #fst_part h2 {
   color: #fff;
   font-size: 1.25rem;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   line-height: 1.75rem;
   letter-spacing: -0.05rem;
   margin: 2rem auto 0 auto;
@@ -222,7 +259,7 @@
 
 .programs li {
   background-color: rgba(150, 150, 150, 0.2);
-  stroke-opacity: 100;
+  stroke-opacity: 1;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -234,8 +271,23 @@
   align-self: center;
 }
 
+footer div img {
+  flex: 0.5;
+  width: 20%;
+  background: #fff;
+}
+
 .programs li img {
   flex: 0.5;
+}
+
+.oldSummits1 h3,
+.oldSummits2 h3 {
+  color: #fff;
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  line-height: 1.3125rem;
 }
 
 .programs li h3 {
@@ -246,10 +298,20 @@
   height: 1.50519rem;
   color: #ff5438;
   font-size: 0.89194rem;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   line-height: 1.56094rem;
   letter-spacing: -0.00894rem;
+}
+
+footer div p {
+  flex: 2;
+  color: #fff;
+  font-size: 0.625rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  line-height: 0.81738rem;
+  letter-spacing: -0.00625rem;
 }
 
 .programs li p {
@@ -257,7 +319,7 @@
   align-self: flex-start;
   color: #fff;
   font-size: 0.66894rem;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   line-height: 1.39369rem;
   letter-spacing: 0.04013rem;
@@ -276,7 +338,7 @@
 #last_part .mobile_h3 {
   color: #fff;
   font-size: 1rem;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 900;
   line-height: 1.75rem;
   letter-spacing: -0.01rem;
@@ -304,7 +366,7 @@
 #figuresFst h2 {
   color: #000;
   font-size: 1.25rem;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   line-height: 1.75rem;
   letter-spacing: -0.0625rem;
   text-align: center;
@@ -318,6 +380,15 @@
   align-items: center;
   gap: 0.5rem;
   margin-top: 1rem;
+}
+
+.aboutScd div img {
+  width: 14.1875rem;
+}
+
+.partners ul li img {
+  width: 6rem;
+  height: 2rem;
 }
 
 #figures li {
@@ -352,7 +423,7 @@
 }
 
 #figures li .imgPart img {
-  background-image: url("../images/BlackchessBoard.svg");
+  background-image: url('../images/BlackchessBoard.svg');
   background-position: left top;
   background-repeat: no-repeat;
   background-size: 80%;
@@ -369,7 +440,7 @@
   border: 1px solid #dcdcdc;
   box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
   border-radius: 4px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 107%;
   letter-spacing: 0.001em;
@@ -399,6 +470,14 @@
   margin-bottom: 3.5rem;
 }
 
+footer div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
 .aboutFst div,
 .aboutScd div {
   display: flex;
@@ -407,16 +486,6 @@
   justify-content: center;
   padding-left: 0.15rem;
   margin: 0.5rem;
-}
-
-.aboutFst div h2 {
-  color: #ff5438;
-  font-weight: 800;
-  font-size: 1.5rem;
-  text-align: center;
-  white-space: nowrap;
-  margin-bottom: 3rem;
-  margin-top: 1rem;
 }
 
 .aboutUnderline {
@@ -428,7 +497,7 @@
   color: #000;
   text-align: center;
   font-size: 0.875rem;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   line-height: 1.5625rem;
   letter-spacing: -0.0525rem;
   width: 22.25rem;
@@ -439,7 +508,7 @@
   color: #7a7a7a;
   text-align: center;
   font-size: 0.75rem;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   line-height: 1.5625rem;
   letter-spacing: -0.0525rem;
@@ -451,7 +520,7 @@
   color: #5f5f5f;
   text-align: center;
   font-size: 0.75rem;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 800;
   line-height: 1.5625rem;
   letter-spacing: 0.015rem;
@@ -468,16 +537,6 @@
   background: #f8f8f8;
 }
 
-.aboutScd div h2 {
-  color: #2c2c2c;
-  text-align: center;
-  font-family: "Inter", sans-serif;
-  font-size: 1.25rem;
-  font-weight: 700;
-  word-wrap: break-word;
-  margin-bottom: 0.3rem;
-}
-
 .aboutScd div .underline {
   width: 6%;
 }
@@ -487,15 +546,11 @@
   color: #838383;
   text-align: center;
   font-size: 0.875rem;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   line-height: 1.5625rem;
   letter-spacing: -0.0525rem;
   width: 22.25rem;
   word-wrap: break-word;
-}
-
-.aboutScd div img {
-  width: 14.1875rem;
 }
 
 .aboutThrd {
@@ -509,6 +564,14 @@
   background: #f8f8f8;
 }
 
+.partners div {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0.15rem;
+  justify-content: center;
+  align-items: center;
+}
+
 .aboutThrd div {
   display: flex;
   flex-direction: column;
@@ -516,21 +579,11 @@
   align-items: center;
 }
 
-.aboutThrd div h2 {
-  color: #838383;
-  text-align: center;
-  font-size: 1rem;
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  line-height: 1.3125rem;
-  letter-spacing: -0.03rem;
-}
-
 .aboutThrd div p {
   color: #838383;
   text-align: center;
   font-size: 0.75rem;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   line-height: 1.3125rem;
   letter-spacing: -0.0225rem;
@@ -548,7 +601,7 @@
 
 .oldSummits1,
 .oldSummits2 {
-  background-image: url("../images/qatar.svg");
+  background-image: url('../images/qatar.svg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 11.40394rem;
@@ -557,16 +610,7 @@
 }
 
 .oldSummits2 {
-  background-image: url("../images/eygpt.svg");
-}
-
-.oldSummits1 h3,
-.oldSummits2 h3 {
-  color: #fff;
-  font-size: 1rem;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  line-height: 1.3125rem;
+  background-image: url('../images/eygpt.svg');
 }
 
 .partners {
@@ -576,25 +620,8 @@
   justify-content: center;
   align-items: center;
   gap: 0.2rem;
-  padding-left: 0.15rem;
+  padding: 0 0 0 0.15rem;
   background: #414246;
-  padding: 1rem;
-}
-
-.partners div {
-  display: flex;
-  flex-direction: column;
-  padding-left: 0.15rem;
-  justify-content: center;
-  align-items: center;
-}
-
-.partners div h2 {
-  color: #fff;
-  font-size: 1.25rem;
-  font-family: "Inter", sans-serif;
-  line-height: 1.75rem;
-  letter-spacing: -0.0125rem;
 }
 
 .partners div .underline {
@@ -611,11 +638,6 @@
   padding-left: 0.15rem;
 }
 
-.partners ul li img {
-  width: 6rem;
-  height: 2rem;
-}
-
 footer {
   display: flex;
   flex-direction: column;
@@ -623,34 +645,12 @@ footer {
   align-items: center;
   padding: 0.5rem;
   background: #414246;
-  opacity: 85%;
+  opacity: 0.85;
   margin-top: 2rem;
-}
-
-footer div {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-}
-
-footer div img {
-  flex: 0.5;
-  width: 20%;
-  background: #fff;
 }
 
 footer div .arabP {
   display: none;
 }
 
-footer div p {
-  flex: 2;
-  color: #fff;
-  font-size: 0.625rem;
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  line-height: 0.81738rem;
-  letter-spacing: -0.00625rem;
-}
+/*# sourceMappingURL=mobile.css.map */
