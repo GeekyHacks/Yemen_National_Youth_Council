@@ -30,10 +30,10 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 Personal Portfolio! <a name="about-project"></a>
+# 📖 Yemen National Youth Council! <a name="about-project"></a>
 
-**My Personal Portfolio!**
-This is my capstone project with Microverse using Github professional flow and it's a council website that is built in html & css,and javascript. In involves a list of Yemeni national figures that I do admire and want to let others know about them.
+**Yemen National Youth Council!**
+This is my capstone project with Microverse using Github professional flow and it's a council website that is built in html CSS, and javascript. It involves a list of Yemeni national figures that I do admire and want to let others know about them.
 
 ## 🛠 Built With <a name="built-with">HTML, CSS</a>
 
@@ -42,6 +42,8 @@ This is my capstone project with Microverse using Github professional flow and i
 </a>
 
 - Mobile First Styling
+- Responsive to both mobile and desktop
+- Linter errors free
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -63,7 +65,7 @@ To get a local copy up and running, follow these steps:
 
 In order to run this project you need:
 
-- General Understanding of HTML & CSS
+- General Understanding of HTML, CSS & JS
 - basic Knowledge of Git Commands
 - basic Knowledge of the Terminal Commands
 
@@ -71,13 +73,13 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-- git clone https://github.com/GeekyHacks/Personal-Portfolio-Microverse.git
+- git clone https://github.com/GeekyHacks/Yemen_National_Youth_Council.git
 
 Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/GeekyHacks/Personal-Portfolio-Microverse.git
+  git clone https://github.com/GeekyHacks/Yemen_National_Youth_Council.git
 
 ```
 
@@ -150,6 +152,6 @@ Can I contribute to this project?\*\*
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/GeekyHacks/Personal-Portfolio-Microverse/blob/c94c940b573e85b888d2d3da699284214552018b/MIT.md) licensed.
+This project is [MIT](LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
