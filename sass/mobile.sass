@@ -1,4 +1,5 @@
 @import main
+// stylelint-disable no-descending-specificity 
 
 #mobileNav
     background: $primaryColor
@@ -85,6 +86,7 @@
 
 .container
     @include columnFlex
+    justify-content: center
     align-items: flex-start
     padding-left: 1rem
     margin: 0 1rem
@@ -96,8 +98,9 @@
     @include columnFlex
     font-family: $InterFont
     align-items: flex-start
+    justify-content: center
     text-align: left
-    padding: 5rem 0rem 4.4375rem 0rem
+    padding: 5rem 0 4.4375rem 0
 .small
     font-weight: 400
     font-size: 1.3rem
@@ -123,13 +126,13 @@
 .fst_page_h2
     color: #595959
     font-size: 1.25rem
-    font-family: Gothic A1
+    font-family: Inter
     font-weight: 900
     margin: .5rem auto .2rem .1rem
 .fst_page_p2
     color: #868686
     font-size: 0.8125rem
-    font-family: Gothic A1
+    font-family: Inter
     font-weight: 700
     letter-spacing: -0.01625rem
     height: 0.8125rem
@@ -138,6 +141,8 @@
 // programs section
 #Scd_page
     @include columnFlex
+    justify-content: center
+    align-items: center
     background-image: url('../images/program_content.svg')
     background-size: cover
     background-repeat: no-repeat
@@ -145,13 +150,15 @@
     gap: .4rem
 #fst_part
     @include columnFlex
+    justify-content: center
+    align-items: center
 #fst_part h2
     color: $primaryColor
     font-size: 1.25rem
     font-family: $InterFont
     line-height: 1.75rem
     letter-spacing: -0.05rem
-    margin: 2rem auto 0rem auto
+    margin: 2rem auto 0 auto
 .underline
     width: 21%
     height: 6px
@@ -159,15 +166,17 @@
 .programs
     @include columnFlex
     gap: 1rem
+    justify-content: center
     align-items: stretch
     padding: .5rem
 .programs li
     background-color: rgba(150, 150, 150, 0.2)
-    stroke-opacity: 100%
+    stroke-opacity: 100
     @include rowFlex
+    justify-content: center
+    align-items: center
 .programs li > *
     padding: .3rem
-
     align-self: center
 .programs li img
     flex: .5
@@ -195,6 +204,8 @@
     margin: 0 0
 #last_part
     @include columnFlex
+    justify-content: center
+    align-items: center
     background: #FF5438
     padding: .3rem .5rem
 #last_part .mobile_h3
@@ -210,8 +221,12 @@
 // Figures section
 #figuresSection
     @include columnFlex
+    justify-content: center
+    align-items: center
 #figuresFst
     @include columnFlex
+    justify-content: center
+    align-items: center
     gap: .5rem
 #figuresFst h2
     color: #000
@@ -220,14 +235,18 @@
     line-height: 1.75rem
     letter-spacing: -0.0625rem
     text-align: center
-    margin: 2rem auto 0rem auto
+    margin: 2rem auto 0 auto
 #figuresScd
     @include columnFlex
+    justify-content: center
+    align-items: center
     gap: .5rem
     margin-top: 1rem
 #figures li
     @include rowFlex
     margin-top: 1rem
+    justify-content: center
+    align-items: center
     gap: .5rem
 #figures li >*
     gap: .4rem
@@ -238,6 +257,7 @@
     @include columnFlex
     text-align: left
     align-items: flex-start
+    justify-content: center
 #figures .contentPart > *
     margin: 0
     padding: 0
@@ -254,6 +274,8 @@
 .viewMore
     @include button
     width: 100vw
+    justify-content: center
+    align-items: center
 
 // about section
 
@@ -262,6 +284,8 @@
 
 .aboutFst
     @include columnFlex
+    justify-content: center
+    align-items: center
     background-image: url(../images/mobileaboutbg.svg)
     background-repeat: no-repeat
     background-size: cover
@@ -271,8 +295,9 @@
 .aboutFst div,.aboutScd div
     @include columnFlex
     align-items: center
+    justify-content: center
     padding-left: .15rem
-    margin: rem
+    margin: 0.5rem
 .aboutFst  div h2
     color: #FF5438
     font-weight: 800
@@ -314,6 +339,8 @@
     text-decoration-line: underline
 .aboutScd
     @include columnFlex
+    justify-content: center
+    align-items: center
     gap: .2rem
     padding-left: .15rem
     background: #f8f8f8
@@ -342,11 +369,15 @@
 .aboutThrd
     margin-top: 2rem
     @include columnFlex
+    justify-content: center
+    align-items: center
     gap: .2rem
     padding-left: .15rem
     background: #f8f8f8
 .aboutThrd div
     @include columnFlex
+    justify-content: center
+    align-items: center
 .aboutThrd div h2
     color: #838383
     text-align: center
@@ -366,6 +397,8 @@
     width: 20rem
 .aboutThrd div div
     @include columnFlex
+    justify-content: center
+    align-items: center
     text-align: center
     gap: .3rem
 .oldSummits1, .oldSummits2
@@ -386,6 +419,8 @@
 .partners
     margin-top: 2rem
     @include columnFlex
+    justify-content: center
+    align-items: center
     gap: .2rem
     padding-left: .15rem
     background: #414246
@@ -393,6 +428,8 @@
 .partners div
     @include columnFlex
     padding-left: .15rem
+    justify-content: center
+    align-items: center
 .partners div h2
     color: $primaryColor
     font-size: 1.25rem
@@ -403,8 +440,9 @@
     margin-top: .1rem
 .partners ul
     @include rowFlex
+    justify-content: center
+    align-items: center
     flex-wrap: wrap
-
     gap: .5rem
     padding-left: .15rem
 .partners ul li img
@@ -412,6 +450,8 @@
     height: 2rem
 footer
     @include columnFlex
+    justify-content: center
+    align-items: center
     padding: 0.5rem
     background: #414246
     opacity: 85%
@@ -419,6 +459,8 @@ footer
 
 footer div
     @include rowFlex
+    justify-content: center
+    align-items: center
     gap: 2rem
 footer div img
     flex: .5

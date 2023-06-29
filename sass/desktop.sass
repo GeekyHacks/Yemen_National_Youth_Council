@@ -1,21 +1,21 @@
 @import main
-#mobileNav
-    display: none
-
+// stylelint-disable no-descending-specificity 
 #desktopNav
-    background: #FFFFFF
-    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25)
+    background: $primaryColor
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25)
     display: flex
     flex-direction: column
 
 .fst_header
     @include rowFlex
-    justify-content: end
-    padding: 1rem 3rem
+    align-items: center
+    justify-content: flex-end
+    padding: 0.3rem 0.5rem
     gap: 1.25rem
     background-color: #3e3e3e
     margin: 0
-    height: .7rem
+    height: 1rem
+    align-self: stretch
 .fst_header li
     font-family: $InterFont
     font-weight: 500
@@ -23,18 +23,23 @@
     color: $primaryColor
 .sed_header
     @include rowFlex
+    justify-content: center
+    align-items: center
     background-color: $primaryColor
     color: #868686
-    height: 4.6875rem
-    padding: 0rem 12.375rem 0rem 13.0625rem
+    height: 2rem
+    padding: 0.4rem 12.375rem 0 13.0625rem
     gap: 10.5rem
 .logo_img
+    justify-content: center
     height: 100%
     flex: 1
-    padding: 0.5rem 0rem 1rem 0rem
+    padding: 0.5rem 0 1rem 0
 .labels
     flex: 3
     @include rowFlex
+    justify-content: center
+    align-items: center
     gap: 2.06rem
     margin: 0
 .labels li
@@ -42,16 +47,15 @@
     font-weight: 800
 .bordered_label
     color: #ec4327
-    border: 4px solid #EC4327
+    border: 4px solid #ec4327
     white-space: nowrap
-    padding: 0.6rem
+    padding: 0.3rem
 #mobileNav
     display: none
 #fst_page
     background-image: url("../images/desktopbg.svg")
     background-repeat: no-repeat
-    padding: 2rem 0rem 4.4375rem 0rem
-    // background-size: 100%
+    padding: 2rem 0 4.4375rem 0
 .fst_page_h1
     margin-top: 1rem
     background-image: url("../images/textBg.jpg")
@@ -64,7 +68,7 @@
     margin-top: 1rem
     font-weight: 400
     border: 8.497px solid $primaryColor
-    background: #F8F8F8
+    background: #f8f8f8
     color: #515151
     font-size: 1.59313rem
     line-height: 2.25694rem
@@ -82,15 +86,40 @@
 // programs section
 #Scd_page
     @include columnFlex
+    justify-content: center
+    align-items: center
     padding: 1.6875rem 1.375rem
-
+.partners div
+    @include columnFlex
+    justify-content: center
+    align-items: center
+    padding-left: .15rem
+.aboutFst  div h2
+    font-size: 1.8rem
+    margin-bottom: .5rem
+.aboutScd div h2
+    font-size: 1.2rem
+    line-height: 1.75rem
+    margin-bottom: .05rem
+.aboutThrd div h2
+    color: #2c2c2c
+    font-size: 1.4rem
+    line-height: 1.75rem
+    letter-spacing: -0.05625rem
 #fst_part
     @include columnFlex
+    justify-content: center
+    align-items: center
 #fst_part h2
     font-size: 1.875rem
     line-height: 1.75rem
     letter-spacing: -0.01875rem
     margin: .5rem
+.programs li img
+    flex: 0.4
+.aboutScd div img
+    width: 22rem
+    height: 12.20494rem
 #fst_part img
     width: 25%
     height: 8px
@@ -105,12 +134,13 @@
     padding: 0.2rem 0.1rem .825rem 0.2rem
     text-align: center
     align-items: center
+    justify-content: center
     gap: .2rem
 .programs li > *
     padding: .1rem
     align-items: center
-.programs li img
-    flex: .4
+.oldSummits1 h3, .oldSummits2 h3
+    font-size: 1.2rem
 .programs li h3
     flex: .2
     font-size: 1.3rem
@@ -128,6 +158,8 @@
     letter-spacing: 0.045rem
 #last_part
     @include columnFlex
+    justify-content: center
+    align-items: center
     background: transparent
     color: $primaryColor
     padding: 1rem 2.125rem
@@ -150,9 +182,11 @@
     line-height: 1.75rem
     letter-spacing: -0.0625rem
     text-align: center
-    margin: 2rem auto 0rem auto
+    margin: 2rem auto 0 auto
 #figuresScd
     @include columnFlex
+    justify-content: center
+    align-items: center
     gap: .5rem
     margin-top: 1rem
 #figures
@@ -167,11 +201,7 @@
 // About section
 .aboutFst
     background-image: url(../images/aboutbg.svg)
-// .aboutFst div,.aboutScd div
 
-.aboutFst  div h2
-    font-size: 1.8rem
-    margin-bottom: .5rem
 .aboutFst  div h2 span
     display: none
 .aboutUnderline
@@ -189,15 +219,7 @@
 .aboutFst  div h3
     font-size: .9rem
     letter-spacing: 0.02125rem
-// .aboutScd
-//     @include columnFlex
-//     gap: .2rem
-//     padding-left: .15rem
-//     background: #f8f8f8
-.aboutScd div h2
-    font-size: 1.2rem
-    line-height: 1.75rem
-    margin-bottom: .05rem
+
 .aboutScd div .underline
     width: 7%
     height: 10px
@@ -207,14 +229,6 @@
     letter-spacing: -0.03rem
     width: 31rem
     margin-bottom: .5rem
-.aboutScd div img
-    width: 22rem
-    height: 12.20494rem
-.aboutThrd div h2
-    color: #2C2C2C
-    font-size: 1.4rem
-    line-height: 1.75rem
-    letter-spacing: -0.05625rem
 .aboutThrd div .underline
     align-self: center
     width: 8%
@@ -226,17 +240,14 @@
 .aboutThrd div div
     @include rowFlex
     text-align: center
+    justify-content: center
+    align-items: center
     gap: .8rem
 .oldSummits1, .oldSummits2
     padding: .1rem
-.oldSummits1 h3, .oldSummits2 h3
-    font-size: 1.2rem
 .partners
     margin-top: 3rem
     gap: .5rem
-.partners div
-    @include columnFlex
-    padding-left: .15rem
 .partners div h2
     color: $primaryColor
     font-size: 1.25rem
@@ -248,6 +259,8 @@
     width: 20%
 .partners ul
     @include rowFlex
+    justify-content: center
+    align-items: center
     flex-wrap: wrap
     gap: .5rem
     padding-left: .15rem
@@ -255,22 +268,24 @@
     width: 6rem
     height: 2rem
 footer
-    margin-top: 0rem
+    margin-top: 0
     opacity: 100%
-    background: #F2F2F2
+    background: #f2f2f2
 footer div
     @include rowFlex
+    justify-content: center
+    align-items: center
     gap: 8rem
 footer div .logo_img
     flex: 1
     width: 25%
     background: none
-    width: 25%
 footer div .arabP
     display: block
 footer div div
     flex: 2
     @include columnFlex
+    justify-content: center
     align-items: flex-start
     gap: .5rem
 footer div div p
