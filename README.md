@@ -9,8 +9,6 @@
   <img src="images" alt="Yemen National Youth Council logo" />
   <br/>
 
-  <h3><b>Yemen National Youth Party</b></h3>
-
 
   <br>
    <a href="https://www.loom.com/share/cd64aa69dc6a4eccbdb72ddcaad2930e?sid=4119501f-11fe-4048-a05e-4e344525febe">Watch full video </a>
