@@ -1,19 +1,23 @@
-# Yemen National Youth Party
 
+# Yemen National Youth Council
 
 <a name="readme-top"></a>
-
 <div align="center">
-<<<<<<< HEAD
-  <img src="images/logo.svg" alt="Yemen National Youth Party logo" width="140"  height="auto" />
-=======
-  <img src="images" alt="Yemen National Youth Party logo" />
+
+
+  <img src="images/logo.svg" alt="Yemen National Youth Council logo" width="140"  height="auto" />
+  <img src="images" alt="Yemen National Youth Council logo" />
   <br/>
 
   <h3><b>Yemen National Youth Party</b></h3>
->>>>>>> c2591f2 (add images)
+
+
+  <br>
+   <a href="https://www.loom.com/share/cd64aa69dc6a4eccbdb72ddcaad2930e?sid=4119501f-11fe-4048-a05e-4e344525febe">Watch full video </a>
 
 </div>
+<p>This capstone project completes my first module's learning journey. A solo project where I have practiced the knowledge and skills I earned throughout my studies. With this web page I am demonstrating my critical thinking, research, and problem-solving abilities.</p>
+<br>
 
 # 📗 Table of Contents
 
@@ -36,10 +40,10 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 Personal Portfolio! <a name="about-project"></a>
+# 📖 Yemen National Youth Council! <a name="about-project"></a>
 
-**My Personal Portfolio!**
-This is my second project with Microverse using Github professional flow and it's a porfolio website that is built in html & css, it includes my resume, basic information about me and my career, and projects I have worked on.
+**Yemen National Youth Council!**
+This is my capstone project with Microverse using Github professional flow and it's a council website that is built in html CSS, and javascript. It involves a list of Yemeni national figures that I do admire and want to let others know about them.
 
 ## 🛠 Built With <a name="built-with">HTML, CSS</a>
 
@@ -48,12 +52,14 @@ This is my second project with Microverse using Github professional flow and it'
 </a>
 
 - Mobile First Styling
+- Responsive to both mobile and desktop
+- Linter errors free
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](deployed url link)
+- [Live Demo Link](https://geekyhacks.github.io/Yemen_National_Youth_Council/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -63,13 +69,13 @@ To get a local copy up and running, follow these steps:
 
 - Open your Terminal in your VSCode.
 - Navigate to the desired directory[folder] to which you want to clone the repository to
-- [Copy & Paste] git clone you find in the code button https://github.com/GeekyHacks/Personal-Portfolio-Microverse.git
+- [Copy & Paste] git clone you find in the code button https://github.com/GeekyHacks/Yemen_National_Youth_Council.git
 
 ### Prerequisites
 
 In order to run this project you need:
 
-- General Understanding of HTML & CSS
+- General Understanding of HTML, CSS & JS
 - basic Knowledge of Git Commands
 - basic Knowledge of the Terminal Commands
 
@@ -77,13 +83,13 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-- git clone https://github.com/GeekyHacks/Personal-Portfolio-Microverse.git
+- git clone https://github.com/GeekyHacks/Yemen_National_Youth_Council.git
 
 Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/GeekyHacks/Personal-Portfolio-Microverse.git
+  git clone https://github.com/GeekyHacks/Yemen_National_Youth_Council.git
 
 ```
 
@@ -120,7 +126,7 @@ Must-Install-Project-with-the-Following-Programmes:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/GeekyHacks/My-Personal-Portfolio/issues).
+Feel free to check the [issues page](https://github.com/GeekyHacks/Yemen_National_Youth_Council/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,6 +144,7 @@ I would like to thank...
 - Microverse Review Team
 - My Coding Partners
 - Microverse Community in Slack
+- Website Design is credited to [Cindy Shin](https://www.behance.net/adagio07)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,6 +162,6 @@ Can I contribute to this project?\*\*
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/GeekyHacks/Personal-Portfolio-Microverse/blob/c94c940b573e85b888d2d3da699284214552018b/MIT.md) licensed.
+This project is [MIT](LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
