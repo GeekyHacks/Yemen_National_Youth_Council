@@ -1,10 +1,20 @@
+
 # Yemen National Youth Council
 
 <a name="readme-top"></a>
 <div align="center">
-  <img src="assests/images/Personal-portfolio-with-play.gif"  alt="Personal portfolio video">
+
+
+  <img src="images/logo.svg" alt="Yemen National Youth Council logo" width="140"  height="auto" />
+  <img src="images" alt="Yemen National Youth Council logo" />
+  <br/>
+
+  <h3><b>Yemen National Youth Party</b></h3>
+
+
   <br>
    <a href="https://www.loom.com/share/cd64aa69dc6a4eccbdb72ddcaad2930e?sid=4119501f-11fe-4048-a05e-4e344525febe">Watch full video </a>
+
 </div>
 <p>This capstone project completes my first module's learning journey. A solo project where I have practiced the knowledge and skills I earned throughout my studies. With this web page I am demonstrating my critical thinking, research, and problem-solving abilities.</p>
 <br>
