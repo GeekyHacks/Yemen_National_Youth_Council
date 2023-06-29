@@ -6,7 +6,7 @@
   <img src="#"  alt="project">
   <br/>
 
-  <h3><b> Personal Portfolio!</b></h3>
+  <h3><b> Yemen National Youth Council</b></h3>
 
 </div>
 
@@ -34,7 +34,7 @@
 # 📖 Personal Portfolio! <a name="about-project"></a>
 
 **My Personal Portfolio!**
-This is my second project with Microverse using Github professional flow and it's a porfolio website that is built in html & css, it includes my resume, basic information about me and my career, and projects I have worked on.
+This is my capstone project with Microverse using Github professional flow and it's a council website that is built in html & css,and javascript. In involves a list of Yemeni national figures that I do admire and want to let others know about them.
 
 ## 🛠 Built With <a name="built-with">HTML, CSS</a>
 
@@ -48,7 +48,7 @@ This is my second project with Microverse using Github professional flow and it'
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](deployed url link)
+- [Live Demo Link](https://geekyhacks.github.io/Yemen_National_Youth_Council/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
