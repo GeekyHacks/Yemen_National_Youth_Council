@@ -132,7 +132,7 @@ I would like to thank...
 - Microverse Review Team
 - My Coding Partners
 - Microverse Community in Slack
-- 
+- Website Design is credited to [Cindy Shin]('https://www.behance.net/adagio07')
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
