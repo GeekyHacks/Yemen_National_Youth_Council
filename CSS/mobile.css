@@ -11,11 +11,15 @@
   -webkit-appearance: none;
 }
 
+body {
+  width: 100vw;
+}
+
 #mobileNav {
   background: #fff;
   display: inline-flex;
   justify-content: space-evenly;
-  padding: 0.375rem 7.625rem 0.375rem 1.4375rem;
+  padding: 0.375rem 0.625rem 0.375rem 1.4375rem;
   align-items: center;
   gap: 4rem;
   box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
@@ -77,7 +81,7 @@
 }
 
 .menuPageList li a {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 195%;
   font-weight: 600;
@@ -119,12 +123,12 @@
 }
 
 #fst_page {
-  background-image: url('../images/mobile-hero_container.svg');
+  background-image: url("../images/mobile-hero_container.svg");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   align-items: flex-start;
   justify-content: center;
   text-align: left;
@@ -137,7 +141,7 @@
 }
 
 .fst_page_h1 {
-  background-image: url('../images/textBg.jpg');
+  background-image: url("../images/textBg.jpg");
   background-repeat: no-repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -161,7 +165,7 @@
 .fst_page_h2 {
   color: #595959;
   font-size: 1.25rem;
-  font-family: 'Gothic A1', sans-serif;
+  font-family: "Gothic A1", sans-serif;
   font-weight: 900;
   margin: 0.5rem auto 0.2rem 0.1rem;
 }
@@ -169,7 +173,7 @@
 .fst_page_p2 {
   color: #868686;
   font-size: 0.8125rem;
-  font-family: 'Gothic A1', sans-serif;
+  font-family: "Gothic A1", sans-serif;
   font-weight: 700;
   letter-spacing: -0.01625rem;
   height: 0.8125rem;
@@ -181,7 +185,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('../images/program_content.svg');
+  background-image: url("../images/program_content.svg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0.6875rem 0.75rem;
@@ -196,7 +200,7 @@
 }
 
 .aboutFst div h2 {
-  color: #ff5438;
+  color: #FF5438;
   font-weight: 800;
   font-size: 1.5rem;
   text-align: center;
@@ -209,7 +213,7 @@
   color: #838383;
   text-align: center;
   font-size: 1rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   line-height: 1.3125rem;
   letter-spacing: -0.03rem;
@@ -218,15 +222,15 @@
 .partners div h2 {
   color: #fff;
   font-size: 1.25rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 1.75rem;
   letter-spacing: -0.0125rem;
 }
 
 .aboutScd div h2 {
-  color: #2c2c2c;
+  color: #2C2C2C;
   text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.25rem;
   font-weight: 700;
   word-wrap: break-word;
@@ -236,7 +240,7 @@
 #fst_part h2 {
   color: #fff;
   font-size: 1.25rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 1.75rem;
   letter-spacing: -0.05rem;
   margin: 2rem auto 0 auto;
@@ -281,11 +285,10 @@ footer div img {
   flex: 0.5;
 }
 
-.oldSummits1 h3,
-.oldSummits2 h3 {
+.oldSummits1 h3, .oldSummits2 h3 {
   color: #fff;
   font-size: 1rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   line-height: 1.3125rem;
 }
@@ -296,9 +299,9 @@ footer div img {
   align-self: center;
   width: auto;
   height: 1.50519rem;
-  color: #ff5438;
+  color: #FF5438;
   font-size: 0.89194rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   line-height: 1.56094rem;
   letter-spacing: -0.00894rem;
@@ -308,7 +311,7 @@ footer div p {
   flex: 2;
   color: #fff;
   font-size: 0.625rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   line-height: 0.81738rem;
   letter-spacing: -0.00625rem;
@@ -319,7 +322,7 @@ footer div p {
   align-self: flex-start;
   color: #fff;
   font-size: 0.66894rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   line-height: 1.39369rem;
   letter-spacing: 0.04013rem;
@@ -331,14 +334,14 @@ footer div p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #ff5438;
+  background: #FF5438;
   padding: 0.3rem 0.5rem;
 }
 
 #last_part .mobile_h3 {
   color: #fff;
   font-size: 1rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 900;
   line-height: 1.75rem;
   letter-spacing: -0.01rem;
@@ -366,7 +369,7 @@ footer div p {
 #figuresFst h2 {
   color: #000;
   font-size: 1.25rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 1.75rem;
   letter-spacing: -0.0625rem;
   text-align: center;
@@ -423,7 +426,7 @@ footer div p {
 }
 
 #figures li .imgPart img {
-  background-image: url('../images/BlackchessBoard.svg');
+  background-image: url("../images/BlackchessBoard.svg");
   background-position: left top;
   background-repeat: no-repeat;
   background-size: 80%;
@@ -437,10 +440,10 @@ footer div p {
   transition: all 0.5s;
   cursor: pointer;
   background: #fff;
-  border: 1px solid #dcdcdc;
+  border: 1px solid #DCDCDC;
   box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
   border-radius: 4px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 107%;
   letter-spacing: 0.001em;
@@ -478,8 +481,7 @@ footer div {
   gap: 2rem;
 }
 
-.aboutFst div,
-.aboutScd div {
+.aboutFst div, .aboutScd div {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -497,7 +499,7 @@ footer div {
   color: #000;
   text-align: center;
   font-size: 0.875rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 1.5625rem;
   letter-spacing: -0.0525rem;
   width: 22.25rem;
@@ -505,10 +507,10 @@ footer div {
 }
 
 .aboutFst div .contactPar {
-  color: #7a7a7a;
+  color: #7A7A7A;
   text-align: center;
   font-size: 0.75rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   line-height: 1.5625rem;
   letter-spacing: -0.0525rem;
@@ -517,10 +519,10 @@ footer div {
 }
 
 .aboutFst div h3 {
-  color: #5f5f5f;
+  color: #5F5F5F;
   text-align: center;
   font-size: 0.75rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 800;
   line-height: 1.5625rem;
   letter-spacing: 0.015rem;
@@ -546,7 +548,7 @@ footer div {
   color: #838383;
   text-align: center;
   font-size: 0.875rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 1.5625rem;
   letter-spacing: -0.0525rem;
   width: 22.25rem;
@@ -583,7 +585,7 @@ footer div {
   color: #838383;
   text-align: center;
   font-size: 0.75rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   line-height: 1.3125rem;
   letter-spacing: -0.0225rem;
@@ -599,9 +601,8 @@ footer div {
   gap: 0.3rem;
 }
 
-.oldSummits1,
-.oldSummits2 {
-  background-image: url('../images/qatar.svg');
+.oldSummits1, .oldSummits2 {
+  background-image: url("../images/qatar.svg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 11.40394rem;
@@ -610,7 +611,7 @@ footer div {
 }
 
 .oldSummits2 {
-  background-image: url('../images/eygpt.svg');
+  background-image: url("../images/eygpt.svg");
 }
 
 .partners {
