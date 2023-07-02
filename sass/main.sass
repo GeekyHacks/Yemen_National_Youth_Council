@@ -1,8 +1,8 @@
 $InterFont: "Inter", sans-serif
 $primaryColor: #fff
 *
-    text-decoration: none
-    box-sizing: content-box
+    text-decoration: none !important
+    box-sizing: border-box
     outline: none
     background: none repeat scroll 0 0 transparent
     border: 0
@@ -11,7 +11,8 @@ $primaryColor: #fff
     margin: 0
     padding: 0
     -webkit-appearance: none
-
+a
+    color: $primaryColor
 // mixings
 
 @mixin columnFlex
@@ -34,8 +35,65 @@ $primaryColor: #fff
     word-spacing: normal
     transition-duration: 0.4s
     padding: 1rem
-    margin: .5rem 0
 @mixin twoThreeGrid
     display: grid
     grid-template-columns: 1fr 1fr
     grid-template-rows: 1fr 1fr 1fr
+// font styling for mobile screens
+
+@mixin smlInterH1
+    font-size: 1.875rem
+    font-family: $InterFont
+    line-height: 1.3rem
+    font-weight: 800
+    letter-spacing: -0.0525rem
+@mixin smlInterH2
+    font-size: 1.5rem
+    font-family: $InterFont
+    line-height: 1.1rem
+    font-weight: 700
+    letter-spacing: -0.0225rem
+@mixin smlInterH3
+    font-size: 1.2rem
+    font-family: $InterFont
+    line-height: 1.1rem
+    font-weight: 500
+    letter-spacing: -0.0225rem
+@mixin smlInterP
+    font-size: 0.875rem
+    font-family: $InterFont
+    line-height: 1.1rem
+    letter-spacing: -0.0225rem
+
+// font styling for md screens
+
+@mixin smlInterH1
+    font-size: 3.5rem
+    font-family: $InterFont
+    line-height: 1.3rem
+    font-weight: 900
+    letter-spacing: -0.0225rem
+
+@mixin smlInterH2
+    font-size: 2.7rem
+    font-family: $InterFont
+    line-height: 1.1rem
+    font-weight: 700
+    letter-spacing: -0.0525rem
+@mixin smlInterH3
+    font-size: 2.2rem
+    font-family: $InterFont
+    line-height: 1rem
+    font-weight: 500
+    letter-spacing: -0.0525rem
+@mixin smlInterP
+    font-size: 0.875rem
+    font-family: $InterFont
+    line-height: 1.5625rem
+    letter-spacing: -0.0525rem
+
+@mixin transparentText
+    background-image: url("../images/textBg.jpg")
+    background-repeat: no-repeat
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent

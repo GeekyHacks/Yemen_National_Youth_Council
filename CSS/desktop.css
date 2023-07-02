@@ -1,6 +1,6 @@
 * {
-  text-decoration: none;
-  box-sizing: content-box;
+  text-decoration: none !important;
+  box-sizing: border-box;
   outline: none;
   background: none repeat scroll 0 0 transparent;
   border: 0;
@@ -9,6 +9,10 @@
   margin: 0;
   padding: 0;
   -webkit-appearance: none;
+}
+
+a {
+  color: #fff;
 }
 
 #desktopNav {
@@ -23,16 +27,17 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
-  padding: 0.3rem 0.5rem;
+  padding-right: calc(20% - 110px);
+  padding-left: calc(20% - 100px);
   gap: 1.25rem;
   background-color: #3e3e3e;
   margin: 0;
-  height: 1rem;
+  height: 1.5rem;
   align-self: stretch;
 }
 
 .fst_header li {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 0.5rem;
   color: #fff;
@@ -45,16 +50,13 @@
   align-items: center;
   background-color: #fff;
   color: #868686;
-  height: 2rem;
-  padding: 0.4rem 12.375rem 0 13.0625rem;
-  gap: 10.5rem;
+  height: 2.87rem;
+  padding: 0.4rem 4rem 0.2rem 5rem;
+  gap: 14.5rem;
 }
 
 .logo_img {
-  justify-content: center;
   height: 100%;
-  flex: 1;
-  padding: 0.5rem 0 1rem 0;
 }
 
 .labels {
@@ -63,20 +65,27 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 2.06rem;
+  gap: 1.8rem;
   margin: 0;
 }
 
-.labels li {
+.labels li a {
+  color: #868686;
+  font-size: 0.875rem;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
   font-size: 0.5rem;
   font-weight: 800;
 }
 
-.bordered_label {
+#bordered_label {
   color: #ec4327;
-  border: 4px solid #ec4327;
+  border: 3px solid #ec4327;
+  padding: 1.2rem 1rem;
   white-space: nowrap;
-  padding: 0.3rem;
+  padding: 0.2rem;
 }
 
 #mobileNav {
@@ -84,19 +93,15 @@
 }
 
 #fst_page {
-  background-image: url('../images/desktopbg.svg');
+  background-image: url("../images/desktopbg.svg");
   background-repeat: no-repeat;
-  padding: 2rem 0 4.4375rem 0;
+  padding: 2.25rem 5.5625rem 3.5625rem 3.875rem;
 }
 
 .fst_page_h1 {
   margin-top: 1rem;
-  background-image: url('../images/textBg.jpg');
-  background-repeat: no-repeat;
   font-weight: 800;
-  font-size: 3.5rem;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: 2.5rem;
 }
 
 .fst_page_p1 {
@@ -151,7 +156,7 @@ footer div div {
 footer div div p {
   color: #000;
   font-size: 1rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   line-height: 1.3rem;
   letter-spacing: -0.056rem;
@@ -192,7 +197,7 @@ footer div div p {
 .partners div h2 {
   color: #fff;
   font-size: 1.25rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 1.75rem;
   letter-spacing: -0.0125rem;
 }
@@ -243,41 +248,39 @@ footer div div p {
 }
 
 .programs li {
+  width: 8rem;
   display: flex;
   flex-direction: column;
   padding: 0.2rem 0.1rem 0.825rem 0.2rem;
   text-align: center;
   align-items: center;
   justify-content: center;
-  gap: 0.2rem;
+  gap: 0.1rem;
 }
 
 .programs li > * {
-  padding: 0.1rem;
   align-items: center;
 }
 
-.oldSummits1 h3,
-.oldSummits2 h3 {
+.oldSummits1 h3, .oldSummits2 h3 {
   font-size: 1.2rem;
 }
 
 .programs li h3 {
-  flex: 0.2;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 700;
-  line-height: 1.75rem;
+  line-height: 1rem;
+  white-space: nowrap;
   letter-spacing: -0.015rem;
 }
 
 .programs li p {
-  width: 10rem;
+  margin-top: 0.5rem;
   height: 5.75rem;
-  flex: 0.6;
   font-size: 0.75rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
-  line-height: 1.5625rem;
+  line-height: 1rem;
   letter-spacing: 0.045rem;
 }
 
@@ -295,7 +298,7 @@ footer div div p {
   display: inline;
   color: #fff;
   font-size: 1.25rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 1.75rem;
   letter-spacing: -0.0125rem;
   text-decoration-line: underline;
@@ -308,7 +311,7 @@ footer div div p {
 #figuresFst h2 {
   color: #000;
   font-size: 1.25rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 1.75rem;
   letter-spacing: -0.0625rem;
   text-align: center;
@@ -403,14 +406,21 @@ footer div div p {
   gap: 0.8rem;
 }
 
-.oldSummits1,
-.oldSummits2 {
+.oldSummits1, .oldSummits2 {
   padding: 0.1rem;
 }
 
 .partners {
   margin-top: 3rem;
   gap: 0.5rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0 0 0 0.15rem;
+  background: #414246;
 }
 
 .partners div .underline {
@@ -432,6 +442,10 @@ footer div .logo_img {
 
 footer div .arabP {
   display: block;
+}
+
+.logo_img_mobile {
+  display: none;
 }
 
 /*# sourceMappingURL=desktop.css.map */
