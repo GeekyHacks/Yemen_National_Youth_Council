@@ -1,5 +1,5 @@
 * {
-  text-decoration: none !important;
+  text-decoration: none;
   box-sizing: border-box;
   outline: none;
   background: none repeat scroll 0 0 transparent;
@@ -120,15 +120,6 @@ body {
   transform: scale(1.15);
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding-left: 1rem;
-  margin: 0 1rem;
-}
-
 #fst_page {
   background-image: url("../images/mobile-hero_container.svg");
   background-size: cover;
@@ -140,6 +131,15 @@ body {
   justify-content: center;
   text-align: left;
   padding: 5rem 0 4.4375rem 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 1rem;
+  margin: 0 1rem;
 }
 
 .small {
@@ -163,7 +163,6 @@ body {
   background: #f8f8f8;
   border: 3px solid #fff;
   font-size: 0.8rem;
-  line-height: 1.0625rem;
   color: #515151;
   height: 6rem;
   padding: 1rem 1rem 1.5rem 0.3rem;
@@ -436,7 +435,6 @@ footer div p {
   padding-top: 5px;
   padding-left: 5px;
   width: 6.6875rem;
-  height: 7.87181rem;
 }
 
 .viewMore {

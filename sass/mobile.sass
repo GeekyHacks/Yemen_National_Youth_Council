@@ -89,14 +89,7 @@ body
     cursor: pointer
     transition: all 0.3s
     transform: scale(1.15)
-
-.container
-    @include columnFlex
-    justify-content: center
-    align-items: flex-start
-    padding-left: 1rem
-    margin: 0 1rem
-
+// First page
 #fst_page
     background-image: url('../images/mobile-hero_container.svg')
     background-size: cover
@@ -107,6 +100,12 @@ body
     justify-content: center
     text-align: left
     padding: 5rem 0 4.4375rem 0
+.container
+    @include columnFlex
+    justify-content: center
+    align-items: flex-start
+    padding-left: 1rem
+    margin: 0 1rem
 .small
     font-weight: 400
     font-size: 1.3rem
@@ -121,7 +120,6 @@ body
     background: #f8f8f8
     border: 3px solid $primaryColor
     font-size: .8rem
-    line-height: 1.0625rem
     color: #515151
     height: 6rem
     padding: 1rem 1rem 1.5rem .3rem
@@ -324,7 +322,7 @@ footer div p
     padding-top: 5px
     padding-left: 5px
     width: 6.6875rem
-    height: 7.87181rem
+    // height: 7.87181rem
 
 .viewMore
     margin-top: 2rem
