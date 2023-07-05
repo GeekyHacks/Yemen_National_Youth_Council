@@ -401,30 +401,49 @@ footer div p {
   flex-direction: row;
   margin-top: 1rem;
   justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
+  align-items: stretch;
+  gap: 0.7rem;
 }
 
-#figures li > * {
-  gap: 0.4rem;
-}
-
-#figures .imgPart {
+.imgPart img {
   flex: 1;
+  height: 100%;
 }
 
-#figures .contentPart {
-  flex: 3;
+.contentPart {
+  flex: 2;
   display: flex;
   flex-direction: column;
   text-align: left;
   align-items: flex-start;
   justify-content: center;
+  gap: 0.2rem;
 }
 
-#figures .contentPart > * {
-  margin: 0;
-  padding: 0;
+.contentPart h2 {
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
+  line-height: 1.3rem;
+  font-weight: 700;
+  letter-spacing: -0.0225rem;
+  flex: 0.2;
+}
+
+.contentPart h3 {
+  font-size: 1.2rem;
+  font-family: "Inter", sans-serif;
+  line-height: 1.1rem;
+  font-weight: 600;
+  letter-spacing: -0.0225rem;
+  flex: 0.1;
+}
+
+.contentPart p {
+  font-size: 0.9rem;
+  font-family: "Inter", sans-serif;
+  line-height: 1.2rem;
+  letter-spacing: -0.0225rem;
+  flex: 0.6;
 }
 
 #figures li .imgPart img {

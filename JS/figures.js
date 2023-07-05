@@ -23,6 +23,8 @@ menuItems.forEach((element) => {
   });
 });
 
+
+
 const viewMore = document.querySelector('.viewMore');
 const listofFigures = document.querySelector('#figures');
 

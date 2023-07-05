@@ -12,8 +12,6 @@
     @include rowFlex
     align-items: center
     justify-content: flex-end
-    padding-right: calc(20% - 110px)
-    padding-left: calc(20% - 100px)
     gap: 1.25rem
     background-color: #3e3e3e
     margin: 0
@@ -31,7 +29,8 @@
     background-color: $primaryColor
     color: #868686
     height: 2.87rem
-    padding: 0.4rem 4rem 0.2rem 5rem
+    padding-top: 0.4rem 
+    padding-bottom: .2rem
     gap: 14.5rem
 .logo_img
     height: 100%
@@ -54,16 +53,15 @@
 #bordered_label
     color: #ec4327
     border: 3px solid #ec4327
-    padding: 1.2rem 1rem
     white-space: nowrap
-    padding: 0.2rem
+    padding: 0.3rem
 #mobileNav
     display: none
 // fist page 
 #fst_page
     background-image: url("../images/desktopbg.svg")
     background-repeat: no-repeat
-    padding: 2rem 12rem 3rem 7rem
+    // padding: 2rem 12rem 3rem 7rem
 .container
     align-items: flex-start
     text-align: left
@@ -97,7 +95,7 @@
     @include columnFlex
     justify-content: center
     align-items: center
-    padding: 1.6875rem 1.375rem
+ 
 footer div
     @include rowFlex
     justify-content: center
@@ -224,6 +222,7 @@ footer div div p
     margin-top: 1rem
 #figures
     @include twoThreeGrid
+    gap: .5rem
 
 .viewMore
     display: none
@@ -286,7 +285,7 @@ footer div div p
     justify-content: center
     align-items: center
     gap: .2rem
-    padding: 0 0 0 .15rem
+    // padding: 0 0 0 .15rem
     background: #414246
 .partners div .underline
     margin-top: .1rem
@@ -303,3 +302,14 @@ footer div .arabP
     display: block
 .logo_img_mobile
     display: none
+
+.fst_header,
+.sed_header,
+.container,
+.figuresScd,
+footer,
+.partners,
+.programs,
+section
+    padding-right: calc(20% - 100px)
+    padding-left: calc(20% - 100px)

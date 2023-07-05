@@ -401,30 +401,49 @@ footer div p {
   flex-direction: row;
   margin-top: 1rem;
   justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
+  align-items: stretch;
+  gap: 0.7rem;
 }
 
-#figures li > * {
-  gap: 0.4rem;
-}
-
-#figures .imgPart {
+.imgPart img {
   flex: 1;
+  height: 100%;
 }
 
-#figures .contentPart {
-  flex: 3;
+.contentPart {
+  flex: 2;
   display: flex;
   flex-direction: column;
   text-align: left;
   align-items: flex-start;
   justify-content: center;
+  gap: 0.2rem;
 }
 
-#figures .contentPart > * {
-  margin: 0;
-  padding: 0;
+.contentPart h2 {
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
+  line-height: 1.3rem;
+  font-weight: 700;
+  letter-spacing: -0.0225rem;
+  flex: 0.2;
+}
+
+.contentPart h3 {
+  font-size: 1.2rem;
+  font-family: "Inter", sans-serif;
+  line-height: 1.1rem;
+  font-weight: 600;
+  letter-spacing: -0.0225rem;
+  flex: 0.1;
+}
+
+.contentPart p {
+  font-size: 0.9rem;
+  font-family: "Inter", sans-serif;
+  line-height: 1.2rem;
+  letter-spacing: -0.0225rem;
+  flex: 0.6;
 }
 
 #figures li .imgPart img {
@@ -673,8 +692,6 @@ footer div .arabP {
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
-  padding-right: calc(20% - 110px);
-  padding-left: calc(20% - 100px);
   gap: 1.25rem;
   background-color: #3e3e3e;
   margin: 0;
@@ -697,7 +714,8 @@ footer div .arabP {
   background-color: #fff;
   color: #868686;
   height: 2.87rem;
-  padding: 0.4rem 4rem 0.2rem 5rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.2rem;
   gap: 14.5rem;
 }
 
@@ -729,9 +747,8 @@ footer div .arabP {
 #bordered_label {
   color: #ec4327;
   border: 3px solid #ec4327;
-  padding: 1.2rem 1rem;
   white-space: nowrap;
-  padding: 0.2rem;
+  padding: 0.3rem;
 }
 
 #mobileNav {
@@ -741,7 +758,6 @@ footer div .arabP {
 #fst_page {
   background-image: url("../images/desktopbg.svg");
   background-repeat: no-repeat;
-  padding: 2rem 12rem 3rem 7rem;
 }
 
 .container {
@@ -788,7 +804,6 @@ footer div .arabP {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1.6875rem 1.375rem;
 }
 
 footer div {
@@ -978,6 +993,7 @@ footer div div p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+  gap: 0.5rem;
 }
 
 .viewMore {
@@ -1066,7 +1082,6 @@ footer div div p {
   justify-content: center;
   align-items: center;
   gap: 0.2rem;
-  padding: 0 0 0 0.15rem;
   background: #414246;
 }
 
@@ -1093,6 +1108,18 @@ footer div .arabP {
 
 .logo_img_mobile {
   display: none;
+}
+
+.fst_header,
+.sed_header,
+.container,
+.figuresScd,
+footer,
+.partners,
+.programs,
+section {
+  padding-right: calc(20% - 100px);
+  padding-left: calc(20% - 100px);
 }
 
 /*# sourceMappingURL=desktop.css.map */

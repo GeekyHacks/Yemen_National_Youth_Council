@@ -299,21 +299,30 @@ footer div p
     @include rowFlex
     margin-top: 1rem
     justify-content: center
-    align-items: center
-    gap: .5rem
-#figures li >*
-    gap: .4rem
-#figures .imgPart
+    align-items: stretch
+    gap: .7rem
+
+.imgPart img
     flex: 1
-#figures .contentPart
-    flex: 3
+    height: 100%
+.contentPart
+    flex: 2
     @include columnFlex
     text-align: left
     align-items: flex-start
     justify-content: center
-#figures .contentPart > *
-    margin: 0
-    padding: 0
+    gap: .2rem
+.contentPart >*
+
+.contentPart h2
+    @include smlInterH2
+    flex: .2
+.contentPart h3
+    @include smlInterH3
+    flex: .1
+.contentPart p
+    @include smlInterP
+    flex: .6
 #figures li .imgPart img
     background-image: url('../images/BlackchessBoard.svg')
     background-position: left top
